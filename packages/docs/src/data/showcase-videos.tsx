@@ -1245,7 +1245,29 @@ export const showcaseVideos: ShowcaseVideo[] = [
 		"name": "Yuwan Kumar"
 	}
 },
-		
+	{
+	title: "Album Preview",
+	type: "mux_video",
+	muxId: "32ygWvK2ktLYpqoZ2GtBaMtz9O314oUsB01yB00o02Yzmg",
+	description: "Customizable audio visualizer you can use to preview albums. This one is Mere - Solanin.",
+	height: 720,
+	width: 1280,
+	submittedOn: new Date("09-09-2022"),
+	links: [
+		{
+			type: "source_code",
+			url: "https://github.com/ImmortalMaize/maizualizer",
+		},
+		{
+			type: "video",
+			url: "https://twitter.com/coefirk/status/1566998773955543046",
+		},
+	],
+	author: {
+		"url": "https://twitter.com/coefirk",
+		"name": "Maize"
+	}
+},	
 ];
 
 const dateString = (date: Date) =>
